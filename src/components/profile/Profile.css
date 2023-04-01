@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.wrapper{
+    
+}
+
+.profileWrapper{
+    display: flex;
+    flex-direction: row;
+}
+
+.profileImage{
+    border: 2px solid black;
+    border-radius: 100%;
+    object-fit: cover;
+}
+
+.profileInfo{
+    padding: 50px;
+}
+
+.profileText{
+    padding: 20px;
+}
