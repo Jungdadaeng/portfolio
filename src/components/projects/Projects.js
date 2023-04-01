@@ -5,22 +5,28 @@ import Row from 'react-bootstrap/Row';
 export default function Project(){
     const projects = [
         {
+            title: '싸이월드 프로젝트',
+            contents: `React의 상태관리 방법 중 하나인 Redux를 사용하여 할일 목록을 관리할 수 있는 웹페이지를 개발하였습니다.
+            할일추가,수정,삭제,히스토리 조회 기능이 있습니다.`,
+            src: '/images/cyworld.png',
+        },
+        {
             title: 'ToDoList Project',
             contents: `React의 상태관리 방법 중 하나인 Redux를 사용하여 할일 목록을 관리할 수 있는 웹페이지를 개발하였습니다.
             할일추가,수정,삭제,히스토리 조회 기능이 있습니다.`,
-            src: '/images/computer.png',
+            src: '/images/todos.png',
         },
         {
             title: 'Sports Challenge Project',
             contents: `React의 상태관리 방법 중 하나인 Redux를 사용하여 할일 목록을 관리할 수 있는 웹페이지를 개발하였습니다.
             할일추가,수정,삭제,히스토리 조회 기능이 있습니다.`,
-            src: '/images/computer.png',
+            src: '/images/wait.png',
         },
         {
             title: '카카오 지도 API 연동 프로젝트',
             contents: `React의 상태관리 방법 중 하나인 Redux를 사용하여 할일 목록을 관리할 수 있는 웹페이지를 개발하였습니다.
             할일추가,수정,삭제,히스토리 조회 기능이 있습니다.`,
-            src: '/images/computer.png',
+            src: '/images/wait.png',
         },
     ]
     return(
