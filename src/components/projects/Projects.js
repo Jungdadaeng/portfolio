@@ -33,7 +33,7 @@ export default function Project(){
         <div className='wrapper'>
             <Row xs={1} md={3} className="g-4">
                 {projects.map((project, idx) => (
-                    <Col>
+                    <Col key={idx}>
                     <Card>
                         <Card.Img variant="top" src={project.src} />
                         <Card.Body>

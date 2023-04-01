@@ -8,7 +8,7 @@ import Contect from "./components/contect/Contect";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter >
       <Layout>
         <Container style={{minHeight:'85vh', padding:'30px'}}>
           <Routes>
