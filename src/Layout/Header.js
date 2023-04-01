@@ -5,9 +5,9 @@ export default function Header(){
         <header>
             <Navbar bg="light" expand="lg" >
             <Container >
-                <Navbar.Brand>DAYOON'S PORTFOLIO</Navbar.Brand>
+                <Navbar.Brand style={{fontWeight:'800'}}>DAYOON'S PORTFOLIO</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
-                <Nav className="ml-auto">
+                <Nav className="ml-auto" style={{fontWeight:'600'}}>
                     <Nav.Link href='/'>Home</Nav.Link>
                     <Nav.Link href='/profile'>Profile</Nav.Link>
                     <Nav.Link href='/projects'>Projects</Nav.Link>
