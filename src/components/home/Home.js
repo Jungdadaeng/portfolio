@@ -2,9 +2,11 @@ export default function Home(){
 
     return(
         <div>
+            <img src="/images/computer.png" style={{width:'100%' , height: '270px'}}/>
             <div style={{textAlign:'center'}}>
+          
             <br/><br/>
-                <h1>-정다윤- <br/> 웹 개발자 포트폴리오</h1><br/>
+                <h1>정다윤<br/> 웹 개발자 포트폴리오</h1><br/>
                 <hr/><br/>
                 <h5>"안녕하세요 <br/>
                 좋은 개발자가 되기 위해 노력하는 3년차 웹 개발자 정다윤입니다."<br/></h5>

@@ -4,6 +4,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from "./components/home/Home";
 import Profile from "./components/profile/Profile";
 import Projects from "./components/projects/Projects";
+import Contect from "./components/contect/Contect";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
             <Route path="/" element={<Home/>}></Route>
             <Route path="/profile" element={<Profile/>}></Route>
             <Route path="/projects" element={<Projects/>}></Route>
+            <Route path="/contect" element={<Contect/>}></Route>
           </Routes>
         </Container>
     </Layout>
