@@ -16,10 +16,12 @@ export default function Project(){
             src: '/images/cyworld.png',
         },
         {
-            url: '',
+            url: 'https://dayoonyi-todolist.vercel.app/',
             title: 'ToDoList Project',
-            contents: `React의 상태관리 방법 중 하나인 Redux를 사용하여 할일 목록을 관리할 수 있는 웹페이지를 개발하였습니다.
-            할일추가,수정,삭제,히스토리 조회 기능이 있습니다.`,
+            contents: `React,styled-components를 사용하여 할일 목록을 관리할 수 있는 웹페이지를 개발하였습니다.
+            할일 목록 조회,할일 완료,추가,삭제 기능이 있습니다.
+            완료한 항목은 클릭 시, 완료되어 할일 목록에서 완료된 처리가 된 것을 확인할 수 있습니다.`
+            ,
             src: '/images/todos.png',
         },
         {
@@ -42,7 +44,7 @@ export default function Project(){
             <Row xs={1} md={3} className="g-4">
                 {projects.map((project, idx) => (
                     <Col key={idx}>
-                    <Card>
+                    <Card style={{height: '100%'}}>
                         <Card.Img variant="top" src={project.src} />
                         <Card.Body>
                         <Card.Title style={{textAlign:'left'}}>{project.title}</Card.Title>
