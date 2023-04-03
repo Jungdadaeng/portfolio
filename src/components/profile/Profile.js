@@ -102,18 +102,18 @@ export default function Profile(){
             </div>
             <table cellPadding={7}>
                 <tr>
-                    <th>근무기간</th>
-                    <th>근무회사</th>
-                    <th>부서</th>
-                    <th>직위</th>
-                    <th>담당직무</th>
+                    <th style={{width: '100px'}}>근무기간</th>
+                    <th style={{width: '100px'}}>근무회사</th>
+                    <th style={{width: '130px'}}>부서</th>
+                    <th style={{width: '100px'}}>직위</th>
+                    <th style={{width: '250px'}}>담당직무</th>
                 </tr>
                 <tr style={{textAlign:'center'}}>
                     <td>2020. 03 ~ 2022.10</td>
                     <td>필라넷</td>
                     <td>그룹웨어1팀 </td>
                     <td>주임</td>
-                    <td>3년 차 웹개발자로 그룹웨어 솔루션을 제공하는 IT 전문중소기업에서 웹과 앱 서비스를 개발/배포/운영하였습니다.</td>
+                    <td style={{width:"350px"}}>3년차 웹개발자로 그룹웨어 솔루션을 제공하는 IT 전문중소기업에서 웹과 앱 서비스를 개발/배포/운영하였습니다.</td>
                 </tr>
             </table>
             <br/>
@@ -138,20 +138,20 @@ export default function Profile(){
                 <tr>
                     <th >회사명</th>
                     <td>(주)필라넷</td>
-                    <th >부서</th>
-                    <td>그룹웨어1팀</td>
-                    <th >직급</th>
-                    <td>주임</td>
+                    <th style={{width:'150px'}}>부서</th>
+                    <td style={{width:'150px'}}>그룹웨어1팀</td>
+                    <th style={{width:'100px'}}>직급</th>
+                    <td style={{width:'100px'}}>주임</td>
                 </tr>
                 <tr>
-                    <th >프로젝트명</th>
-                    <td>[신영증권] 그룹웨어 리뉴얼 프로젝트</td>
-                    <th >프로젝트 기간</th>
-                    <td>2022. 03 ~ 2022. 06</td>
+                    <th style={{width:'170px'}}>프로젝트명</th>
+                    <td style={{width:'500px'}}>[신영증권] 그룹웨어 리뉴얼 프로젝트</td>
+                    <th style={{width:'200px'}}>프로젝트 기간</th>
+                    <td style={{width:'270px'}}>2022. 03 ~ 2022. 06</td>
                 </tr>
                 <tr>
-                    <th >주요역할 및 담당</th>
-                    <td>
+                    <th>주요역할 및 담당</th>
+                    <td colSpan={4}>
                     - Vue.js, TypeScript를 활용한 그룹웨어 사이트 관리자 페이지,일정 페이지 개발<br/>
                     - 사용자 관점으로 기능을 추가하여 10% MAU 증가<br/>
                     - Vuex를 이용해 상태관리 및 서비스 분리<br/>
@@ -160,14 +160,14 @@ export default function Profile(){
                     </td>
                 </tr>
                 <tr>
-                    <th >프로젝트명</th>
+                    <th style={{width:'150px'}}>프로젝트명</th>
                     <td>[이수그룹] 그룹웨어 구축</td>
-                    <th >프로젝트 기간</th>
+                    <th style={{width:'150px'}}>프로젝트 기간</th>
                     <td>2021. 06 ~ 2021. 12</td>
                 </tr>
                 <tr>
-                    <th >주요역할 및 담당</th>
-                    <td>
+                    <th>주요역할 및 담당</th>
+                    <td colSpan={4}>
                     - Vue.js, TypeScript를 활용한 웹메일 조직도 페이지 개발<br/>
                     - Vuex를 이용해 상태관리 및 서비스 분리<br/>
                     - REST API를 활용한 CRUD Operation 구현<br/>
@@ -175,14 +175,14 @@ export default function Profile(){
                     </td>
                 </tr>
                 <tr>
-                    <th >프로젝트명</th>
+                    <th style={{width:'150px'}}>프로젝트명</th>
                     <td>[KT] EXO 웹메일 프로젝트</td>
-                    <th >프로젝트 기간</th>
+                    <th style={{width:'150px'}}>프로젝트 기간</th>
                     <td>2020. 12 ~ 2021. 05</td>
                 </tr>
                 <tr>
                     <th >주요역할 및 담당</th>
-                    <td>
+                    <td colSpan={2}>
                     - Vue.js, TypeScript를 활용한 메일파트 개발<br/>
                     - Vuex를 이용해 상태관리 및 서비스 분리<br/>
                     - 전자메일의 exchange 서버 관리<br/>
@@ -190,14 +190,14 @@ export default function Profile(){
                     </td>
                 </tr>
                 <tr>
-                    <th >프로젝트명</th>
+                    <th style={{width:'150px'}}>프로젝트명</th>
                     <td>[OB맥주] 그룹웨어 리뉴얼</td>
-                    <th >프로젝트 기간</th>
+                    <th style={{width:'150px'}}>프로젝트 기간</th>
                     <td>2020. 06 ~ 2020. 12</td>
                 </tr>
                 <tr>
                     <th >주요역할 및 담당</th>
-                    <td>
+                    <td colSpan={2}>
                     - JQuery, JavaScript Version Upgrade<br/>
                     - ASP.NET, MSSQL을 사용해 페이지 개발<br/>
                     - Git을 이용한 형상관리<br/>
