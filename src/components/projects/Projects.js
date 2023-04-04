@@ -31,20 +31,20 @@ export default function Project(){
             스쿼트 실행, 취소, 히스토리 조회, 히스토리 삭제 기능이 있습니다.`,
             src: '/images/sports.png',
         },
-        {
-            url: '',
-            title: '맛집찾기 Project',
-            contents: `React,KakaoMap API를 사용하여 맛집을 마크할 수 있는 웹페이지를 개발하였습니다.
-            맛집추가,수정,삭제,히스토리 조회 기능이 있습니다.`,
-            src: '/images/wait.png',
-        },
-        {
-            url: '',
-            title: '자유게시판  Project',
-            contents: `React를 사용하여 자유게시판 웹페이지를 개발하였습니다.
-            게시글 목록, 작성, 수정, 삭제, 댓글 기능이 있습니다.`,
-            src: '/images/wait.png',
-        },
+        // {
+        //     url: '',
+        //     title: '맛집찾기 Project',
+        //     contents: `React,KakaoMap API를 사용하여 맛집을 마크할 수 있는 웹페이지를 개발하였습니다.
+        //     맛집추가,수정,삭제,히스토리 조회 기능이 있습니다.`,
+        //     src: '/images/wait.png',
+        // },
+        // {
+        //     url: '',
+        //     title: '자유게시판  Project',
+        //     contents: `React를 사용하여 자유게시판 웹페이지를 개발하였습니다.
+        //     게시글 목록, 작성, 수정, 삭제, 댓글 기능이 있습니다.`,
+        //     src: '/images/wait.png',
+        // },
     ]
     return(
         <div className='wrapper'>
