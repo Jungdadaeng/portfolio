@@ -152,7 +152,7 @@ export default function Profile(){
                 <tr>
                     <th>주요역할 및 담당</th>
                     <td colSpan={4}>
-                    - Vue.js, TypeScript를 활용한 그룹웨어 사이트 관리자 페이지,일정 페이지 개발<br/>
+                    - Vue.js, TypeScript, ASP.NET, MSSQL을 사용해 그룹웨어 사이트 관리자 페이지 개발를 활용한 그룹웨어 사이트 관리자 페이지,일정 페이지 개발<br/>
                     - 사용자 관점으로 기능을 추가하여 10% MAU 증가<br/>
                     - Vuex를 이용해 상태관리 및 서비스 분리<br/>
                     - REST API를 활용한 CRUD Operation 구현<br/>
@@ -168,7 +168,7 @@ export default function Profile(){
                 <tr>
                     <th>주요역할 및 담당</th>
                     <td colSpan={4}>
-                    - Vue.js, TypeScript를 활용한 웹메일 조직도 페이지 개발<br/>
+                    - Vue.js, TypeScript, ASP.NET, MSSQL를 활용한 웹메일 조직도 페이지 개발<br/>
                     - Vuex를 이용해 상태관리 및 서비스 분리<br/>
                     - REST API를 활용한 CRUD Operation 구현<br/>
                     - Git을 이용한 형상관리
@@ -183,7 +183,7 @@ export default function Profile(){
                 <tr>
                     <th >주요역할 및 담당</th>
                     <td colSpan={2}>
-                    - Vue.js, TypeScript를 활용한 메일파트 개발<br/>
+                    - Vue.js, TypeScript, ASP.NET, MSSQL를 활용한 메일파트 개발<br/>
                     - Vuex를 이용해 상태관리 및 서비스 분리<br/>
                     - 전자메일의 exchange 서버 관리<br/>
                     - REST API를 활용한 CRUD Operation 구현
@@ -199,7 +199,6 @@ export default function Profile(){
                     <th >주요역할 및 담당</th>
                     <td colSpan={2}>
                     - JQuery, JavaScript Version Upgrade<br/>
-                    - ASP.NET, MSSQL을 사용해 페이지 개발<br/>
                     - Git을 이용한 형상관리<br/>
                     - REST API를 활용한 CRUD Operation 구현<br/>
                     </td>
