@@ -172,7 +172,7 @@ export default function Profile(){
                     - Vuex를 이용해 상태관리 및 서비스 분리<br/>
                     - REST API를 활용한 CRUD Operation 구현<br/>
                     - Git을 이용한 형상관리
-                    </td>
+                    </td> 
                 </tr>
                 <tr>
                     <th style={{width:'150px'}}>프로젝트명</th>
