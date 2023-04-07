@@ -11,7 +11,7 @@ export default function Header(){
                     <Nav.Link href='/'>Home</Nav.Link>
                     <Nav.Link href='/profile'>Profile</Nav.Link>
                     <Nav.Link href='/projects'>Projects</Nav.Link>
-                    <Nav.Link href='/contect'>Contect</Nav.Link>
+                    <Nav.Link href='/contect'>Contact</Nav.Link>
                 </Nav>
             </Container>
             </Navbar>
